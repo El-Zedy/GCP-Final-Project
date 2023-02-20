@@ -61,7 +61,7 @@ The VM must be private, and the Restricted Subnet must not have access to the in
        kubectl get services -n <namespace_name> | greb frontendservice_name
        
 - hit `EXTERNAL_IP:8000` on your browser
-- **Congratulation our web application is now available for users!**
+- **Congratulation our web application is now available for users!:tada::tada:**
 
 ## Contributing
 Contributions to this project are welcome and appreciated. To contribute, please follow these steps:
