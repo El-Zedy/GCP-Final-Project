@@ -76,7 +76,7 @@ In conclusion, the GCP-Final-Project repository serves as a demonstration of how
 ## Acknowledgements
 We would like to acknowledge the following individuals and resources for their contributions to this project:
 
-- Our instructor,[atefhares](https://github.com/atefhares) , for providing guidance and support throughout the project.
+- Our instructor [Eng. Atef hares](https://github.com/atefhares), for providing guidance and support throughout the project.
 - The Google Cloud Platform documentation, which served as a valuable resource for understanding the various GCP services and how they can be used together.
 - The Terraform documentation, which provided helpful guidance on building iac on GCP.
 - We would also like to thank our classmates and peers for their feedback and contributions to this project.
