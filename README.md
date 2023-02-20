@@ -1,16 +1,17 @@
 # GCP-Final-Project :cloud:
-<span style="color:red">GCP final project using Terraform, Kubernetes and Docker</span>
+Hosting web application on private GKE cluster using Terraform and Docker
 ## Overview
-This project is designed to deploy a secure infrastructure on **Google Cloud Platform (GCP)** using **Terraform**. The infrastructure includes:
+This project is designed to deploy a secure infrastructure on `Google Cloud Platform (GCP)` using `Terraform`. The infrastructure includes:
 - Virtual Private Cloud (VPC) with two subnets 
     - Management Subnet & Restricted Subnet. 
 - The Management Subnet contains:
     - NAT gateway & Private VM 
 - The Restricted Subnet contains:
-    - **Private standard GKE cluster (private control plan)**.
+    - `Private standard GKE cluster (private control plan)`.
     
-The VM must be private, and the Restricted Subnet must not have access to the internet. All images deployed on GKE comes from GCR or Artifacts registry, and the deployment must be exposed to the public internet with a **public HTTP load balancer**.
+The VM must be private, and the Restricted Subnet must not have access to the internet. All images deployed on GKE comes from GCR or Artifacts registry, and the deployment must be exposed to the public internet with a *public HTTP load balancer*.
 ## Prerequisites
+- Linux system
 - Terraform 
 - Docker
 ## Getting Started
@@ -70,6 +71,15 @@ Contributions to this project are welcome and appreciated. To contribute, please
 2. Create a new branch for your changes.
 3. Make your changes and commit them to your branch.
 4. Create a pull request to merge your changes into the main branch.
+# Conclusion
+In conclusion, the GCP-Final-Project repository serves as a demonstration of how to deploy a web application on GKE private cluster. By following the instructions in this repository, you can learn how build your infastrucure using terrafrom, Dockerizing your applications, push them as images to GCR, and deploy them to public users throw public loadblancer service on GKE private cluster.
+## Acknowledgements
+We would like to acknowledge the following individuals and resources for their contributions to this project:
+
+- Our instructor, @atefhares , for providing guidance and support throughout the project.
+- The Google Cloud Platform documentation, which served as a valuable resource for understanding the various GCP services and how they can be used together.
+- The Terraform documentation, which provided helpful guidance on building iac on GCP.
+- We would also like to thank our classmates and peers for their feedback and contributions to this project.
 
 ## Contact
 If you have any questions or suggestions regarding this project, please contact the project owner at muhammadhassanelzedy@gmail.com .
