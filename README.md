@@ -9,7 +9,7 @@ This project is designed to deploy a secure infrastructure on `Google Cloud Plat
 - The Restricted Subnet contains:
     - `Private standard GKE cluster (private control plan)`.
     
-The VM must be private, and the Restricted Subnet must not have access to the internet. All images deployed on GKE comes from GCR or Artifacts registry, and the deployment must be exposed to the public internet with a *public HTTP load balancer*.
+The VM must be private, and the Restricted Subnet must not have access to the internet. All images deployed on GKE comes from GCR or Artifacts registry, and the deployment must be exposed to the public internet with a `public HTTP load balancer`.
 ## Prerequisites
 - Linux system
 - Terraform 
