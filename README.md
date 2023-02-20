@@ -65,6 +65,7 @@ The VM must be private, and the Restricted Subnet must not have access to the in
 - **Congratulation our web application is now available for users! :tada::tada:**
 
 ## Contributing
+
 Contributions to this project are welcome and appreciated. To contribute, please follow these steps:
 
 1. Fork the repository to your own account.
