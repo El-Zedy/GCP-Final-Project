@@ -48,7 +48,7 @@ The VM must be private, and the Restricted Subnet must not have access to the in
       
         kubectl create ns <namespace_name>
       
-      - create 2 services and deployments one for backend and other for forntend
+      - create 2 services and deployments one for backend and another for forntend
 
       - hint: you can find all manifests files at `kubernetes manifests` directory
         
