@@ -73,6 +73,7 @@ Contributions to this project are welcome and appreciated. To contribute, please
 4. Create a pull request to merge your changes into the main branch.
 # Conclusion
 In conclusion, the GCP-Final-Project repository serves as a demonstration of how to deploy a web application on GKE private cluster. By following the instructions in this repository, you can learn how build your infastrucure using terrafrom, Dockerizing your applications, push them as images to GCR, and deploy them to public users throw public loadblancer service on GKE private cluster.
+- *hint:* Go to `screenshots` dirctory to double check and make sure that everything going right during your steps.
 ## Acknowledgements
 We would like to acknowledge the following individuals and resources for their contributions to this project:
 
