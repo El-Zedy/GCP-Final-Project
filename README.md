@@ -50,7 +50,26 @@ The VM must be private, and the Restricted Subnet must not have access to the in
       - create 2 services and deployments one for backend and other for forntend
 
       - hint: you can find all manifests files at `kubernetes manifests` directory
+        
+        
+       kubectl create -f <frontendservice_name> -n <namespace_name>
+       kubectl create -f <backendservice_name> -n <namespace_name>
+       kubectl create -f <frontenddeployment_name> -n <namespace_name>
+       kubectl create -f <backenddeployment_name> -n <namespace_name>
+- Now our appliction up and running we can reach it using our frontend loadblacer
+        
+       kubectl get services -n <namespace_name> | greb frontendservice_name
+       
+- hit `EXTERNAL_IP:8000` on your browser
+- **Congratulation our web application is now available for users!**
 
+## Contributing
+Contributions to this project are welcome and appreciated. To contribute, please follow these steps:
 
-      
-      
+1. Fork the repository to your own account.
+2. Create a new branch for your changes.
+3. Make your changes and commit them to your branch.
+4. Create a pull request to merge your changes into the main branch.
+
+## Contact
+If you have any questions or suggestions regarding this project, please contact the project owner at muhammadhassanelzedy@gmail.com .
