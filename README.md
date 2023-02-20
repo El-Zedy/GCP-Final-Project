@@ -1,4 +1,4 @@
-# GCP-Final-Project
+# GCP-Final-Project :cloud:
 **GCP final project using Terraform, Kubernetes and Docker**
 ## Overview
 This project is designed to deploy a secure infrastructure on **Google Cloud Platform (GCP)** using **Terraform**. The infrastructure includes:
